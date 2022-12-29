@@ -1,0 +1,11 @@
+{
+    "name": "Police_Dammam",
+    "config": {
+        "connector.class": "com.mongodb.kafka.connect.MongoSourceConnector",
+        "connection.uri": "mongodb+srv://Abdulaziz:DAbdRpcseyPuP9DT@mongodemo.kqbhziq.mongodb.net/?retryWrites=true&w=majority",
+        "database": "Police_Dammam",
+        "collection": "Crimes",
+        "topic.prefix": "",
+        "topic.namespace.map": "{\"Police_Dammam.Crimes\":\"Police.Crimes\"}"
+    }
+}

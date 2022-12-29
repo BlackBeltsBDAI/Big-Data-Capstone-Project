@@ -1,0 +1,10 @@
+{
+  "name": "NIC",
+  "config": {
+    "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+    "topics": "Police.Crimes",
+    "connection.uri": "mongodb+srv://Abdulaziz:DAbdRpcseyPuP9DT@mongodemo.kqbhziq.mongodb.net/?retryWrites=true&w=majority",
+    "database": "NIC",
+    "collection": "Police_Crimes"
+  }
+}
